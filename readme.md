@@ -17,5 +17,3 @@ Install [chocolatey](https://chocolatey.org/install)\
 `yay -S clang`\
 `yay -S gdb`\
 or install them manually [clang package](https://archlinux.org/packages/extra/x86_64/gdb/), [gbd package](https://archlinux.org/packages/extra/x86_64/clang/)
-## Why
-This template was made so you don't have to setup anything with almost everything work right out of the box!
