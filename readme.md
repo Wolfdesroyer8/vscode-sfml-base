@@ -1,12 +1,13 @@
 # SFML base code
 ## How to setup
 ### Windows
-1.
-2.
-3.
+Install [chocolatey](https://chocolatey.org/install)\
+`choco install llvm`\
+`choco install mingw`
 ### MacOS
-Install [clang](https://github.com/llvm/llvm-project/releases/tag/llvmorg-12.0.1) 
-Install [gdb]()
+`(/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)")`\
+`brew install --with-toolchain llvm`\
+`brew install gdb`
 ### Linux
 **If your distro is not listed then check you package manager for gdb and clang++**
 #### ubuntu/debian
