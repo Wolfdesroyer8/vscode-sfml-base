@@ -1,0 +1,21 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"command": "make",
+			"label": "cpp: Compile",
+			"detail": "Compiles cpp project and runs the code",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		{
+			"type": "shell",
+			"command": "make clean",
+			"label": "cpp: Clean",
+			"detail": "Removes object files and binaries",
+		}
+	]
+}
